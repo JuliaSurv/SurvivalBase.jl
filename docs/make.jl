@@ -8,7 +8,7 @@ makedocs(;
     authors="Oskar Laverny <oskar.laverny@univ-amu.fr> and contributors",
     sitename="SurvivalBase.jl",
     format=Documenter.HTML(;
-        canonical="https://lrnv.github.io/SurvivalBase.jl",
+        canonical="https://JuliaSurv.github.io/SurvivalBase.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/lrnv/SurvivalBase.jl",
+    repo="github.com/JuliaSurv/SurvivalBase.jl",
     devbranch="main",
 )

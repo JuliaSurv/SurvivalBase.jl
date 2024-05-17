@@ -4,7 +4,7 @@ CurrentModule = SurvivalBase
 
 # SurvivalBase
 
-Documentation for [SurvivalBase](https://github.com/lrnv/SurvivalBase.jl).
+Documentation for [SurvivalBase](https://github.com/JuliaSurv/SurvivalBase.jl).
 
 ```@index
 ```
