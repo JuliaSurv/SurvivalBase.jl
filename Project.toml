@@ -1,7 +1,7 @@
 name = "SurvivalBase"
 uuid = "9cb6079b-e021-4662-8a75-9f65bfa286f2"
 authors = ["Oskar Laverny <oskar.laverny@univ-amu.fr> and contributors"]
-version = "1.0.0-DEV"
+version = "0.1"
 
 [compat]
 Aqua = "0.8"
