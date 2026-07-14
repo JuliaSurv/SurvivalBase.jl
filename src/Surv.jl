@@ -9,7 +9,7 @@ This information, usually on the left hand side a formula, has then a behavior t
 
 This usage is common in, e.g., cox models. However, note that the *meaning* of the formula heavily depends on the model : for hazard regession and maximum likelyhood estimation, this does not mean the same thing. 
 """
-Surv(T::Float64, Δ::Bool) = (T, Δ)
+Surv(T, Δ) = (float(T), bool(Δ))
 struct SurvTerm{X, Y} <: AbstractTerm
     T::X
     Δ::Y
